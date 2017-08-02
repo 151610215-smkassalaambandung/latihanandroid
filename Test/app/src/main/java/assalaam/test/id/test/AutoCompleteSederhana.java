@@ -12,7 +12,7 @@ public class AutoCompleteSederhana extends AppCompatActivity implements TextWatc
 
     TextView hasil;
     AutoCompleteTextView edit;
-    String[]item ={"Merbabu","Mepati","Lawu","Rinjani"};
+    String[]item ={"Merbabu","Mepati","Lawu","Rinjani","Sumbing","Sindoro","Krakatau","Cilisung"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

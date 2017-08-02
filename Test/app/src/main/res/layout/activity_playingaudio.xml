@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_playingaudio"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/mkl"
+    tools:context="assalaam.test.id.test.playingaudio"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15px"
+        android:id="@+id/textView"
+        android:text="Memainkan Musik"></TextView>
+
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ket"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15px"></TextView>
+
+    <ImageButton
+        android:layout_width="132dp"
+        android:layout_height="71dp"
+        android:id="@+id/putarMusik"
+        android:adjustViewBounds="false"
+        android:src="@drawable/play"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_weight="0.09"></ImageButton>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STOP"
+        android:id="@+id/btnSTOP"
+        android:layout_alignTop="@+id/btnPAUSE"
+        android:layout_toRightOf="@+id/btnPAUSE"
+        android:layout_toEndOf="@+id/btnPAUSE"></Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PAUSE"
+        android:id="@+id/btnPAUSE"
+        android:layout_alignTop="@+id/btnPLAY"
+        android:layout_centerHorizontal="true"></Button>
+
+</LinearLayout>

@@ -20,7 +20,13 @@
         <activity android:name=".RelativeLayoutSederhana" />
         <activity android:name=".LayoutTabel" />
         <activity android:name=".LinearLayoutSederhana" />
-        <activity android:name=".AutoCompleteSederhana"></activity>
+        <activity android:name=".AutoCompleteSederhana" />
+        <activity android:name=".Picker" />
+        <activity android:name=".MembuatCheckBox" />
+        <activity android:name=".Seleksi" />
+        <activity android:name=".DialogBox" />
+        <activity android:name=".RadioButton" />
+        <activity android:name=".playingaudio"></activity>
     </application>
 
 </manifest>

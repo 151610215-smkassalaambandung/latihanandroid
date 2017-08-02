@@ -1,5 +1,13 @@
 <resources>
     <string name="HELLO">Hello Irsan,autocomplete!</string>
-    <string name="app_name">Latihan</string>
+    <string name="app_name">ANDROID DASAR</string>
     <string name="perintah">3 HURUf SAJA</string>
+    <string name="checkbox">Check Box ini : Tidak Dicentang!</string>
+    <string name="toastTextBtn">Panggil Toast</string>
+    <string name="exitTextBtn">Keluar Applikasi</string>
+    <string name="listDialogTextBtn">Panggil List Dialog</string>
+    <string name="startBtn">Start</string>
+    <string name="stopBtn">Stop</string>
+
+
 </resources>
